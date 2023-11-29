@@ -26,7 +26,9 @@ export default class Country extends Component {
 							</section>
 						</div>
 					</div>
-
+					{this.props.blok.additionalstuff.map((nestedBlok) => (
+           					 <StoryblokComponent blok={nestedBlok} key={nestedBlok._uid} />
+         				 ))}
 				</main>
 			</div>
 		);
