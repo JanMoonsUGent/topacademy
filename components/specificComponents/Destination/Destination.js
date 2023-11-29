@@ -25,8 +25,10 @@ export default class Destination extends Component {
 								<div className={css["rich-text-section__rich-text"]}>{RichTextToHTML({ document: this.props.blok.description })}</div>
 							</section>
 						</div>
+						{this.props.blok.additionalstuff.map((nestedBlok) => (
+           					 <StoryblokComponent blok={nestedBlok} key={nestedBlok._uid} />
+         				 ))}
 					</div>
-
 				</main>
 			</div>
 		);
