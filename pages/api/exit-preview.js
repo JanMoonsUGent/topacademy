@@ -12,6 +12,6 @@ export default async function exit(req, res) {
       )
     );
    
-    // Redirect the user back to the index page.
+    // Redirect the user back to the index page. 
     res.redirect(`/${slug}`);
   }
