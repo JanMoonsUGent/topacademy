@@ -50,7 +50,7 @@ export default class HeadComponent extends Component {
 		const gasource = "https://www.googletagmanager.com/gtag/js?id="+process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS;
 		return <>
 			<Head>
-			<!-- Hotjar Tracking Code for https://topacademy-liard.vercel.app/home -->
+			<-- Hotjar Tracking Code for https://topacademy-liard.vercel.app/home -->
 <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
